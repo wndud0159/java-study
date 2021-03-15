@@ -8,4 +8,5 @@ void dowork(Car car) {
         fireEngine.water();
     }
 }
+// 형변환을 하는 이유는 인스턴스의 원래 기능을 모두 사용하려고 Car타입의 리모콘인 car로는 water()를 호출할 수 없으니까. 리모콘을 FireEngine타입으로 바꿔서 water()를 호출
 ```
