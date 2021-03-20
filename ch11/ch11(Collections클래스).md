@@ -1,0 +1,11 @@
+# Collections - 컬렉션을 위한 메서드(static)을 제공
+- 컬렉션 채우기, 복사, 정렬, 검색
+  - fill(), copy(), sort(), binarySearch() 등
+- 컬렉션의 동기화
+  - synchronizedXXX()
+- 번경불가 컬렉션(readOnly) 만들기 불변
+  - unmodifiableXXX()
+- 싱글톤 컬렉션 만들기
+  - singletonXXX()
+- 한 종류의 객체만 저장할 수 있는 컬렉션 만들기
+  - checkedXXX()
